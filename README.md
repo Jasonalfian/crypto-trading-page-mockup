@@ -15,19 +15,30 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+https://github.com/Jasonalfian/crypto-trading-page-mockup/assets/41385867/23a61a83-73de-4034-8d31-cd9fdf92d85c
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Demo of website mock:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Endpoint used public url provided by Binance in:
+- https://github.com/binance/binance-spot-api-docs/blob/master/web-socket-streams.md
+- https://github.com/binance/binance-spot-api-docs/blob/master/rest-api.md
 
-## Learn More
+Websockets usage: 
+- Orderbook data
+- Kline for real time chart data
+- General Info of assets in header area
 
-To learn more about Next.js, take a look at the following resources:
+REST API usage:
+- Fetch historical data of coin, prepend it with real time chart data
+- List of exchange info for list of coins available in binance (for simplicity, only exchange with USDT shown)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Notable Library:
+- https://mui.com/ for component library
+- https://www.npmjs.com/package/axios for API rest fetching
+- https://www.npmjs.com/package/lightweight-charts for chart component
+- https://www.npmjs.com/package/numeral for currency formatting
+- https://www.npmjs.com/package/lodash for rounding number
+- https://www.npmjs.com/package/recoil for state management
 
 ## Deploy on Vercel
 
