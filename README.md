@@ -15,9 +15,9 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-https://github.com/Jasonalfian/crypto-trading-page-mockup/assets/41385867/23a61a83-73de-4034-8d31-cd9fdf92d85c
 
-Demo of website mock:
+Demo of website:
+https://github.com/Jasonalfian/crypto-trading-page-mockup/assets/41385867/23a61a83-73de-4034-8d31-cd9fdf92d85c
 
 Endpoint used public url provided by Binance in:
 - https://github.com/binance/binance-spot-api-docs/blob/master/web-socket-streams.md
