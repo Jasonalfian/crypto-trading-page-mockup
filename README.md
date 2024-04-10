@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -14,7 +12,7 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) or visit https://crypto-trading-page-mockup.vercel.app/ with your browser to see the result.
 
 Demo of website:
 https://github.com/Jasonalfian/crypto-trading-page-mockup/assets/41385867/23a61a83-73de-4034-8d31-cd9fdf92d85c
@@ -40,8 +38,6 @@ Notable Library:
 - https://www.npmjs.com/package/lodash for rounding number
 - https://www.npmjs.com/package/recoil for state management
 
-## Deploy on Vercel
+## Disclaimer
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Sometimes binance API is blocked in Indonesia for some internet providers, try enabling proxy if error connection occured.
