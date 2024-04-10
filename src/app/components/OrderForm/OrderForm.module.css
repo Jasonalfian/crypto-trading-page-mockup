@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+}
+
+.formContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

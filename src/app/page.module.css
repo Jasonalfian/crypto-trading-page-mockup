@@ -1,0 +1,31 @@
+.outerContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.innerContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 10px;
+    max-height: 980px;
+}
+
+.leftContainer {
+    min-width: 350px;
+}
+
+.centerContainer {
+    width: calc(100vw - 700px);
+    border-color: dimgrey;
+    border-width: 1px 0px;
+    border-style: solid;
+}
+
+.rightContainer {
+    max-height: 100%;
+    min-width: 350px;
+    overflow-y: auto;
+    border: 1px solid dimgrey;
+}

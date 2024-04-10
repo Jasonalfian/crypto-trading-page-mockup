@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.highlight:hover {
+    background-color: #2b3139;
+    cursor: pointer;
+}
+
+.tableContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.colPair {
+    width: 30%;
+}
+
+.colPriceChange {
+    width: 35%;
+    text-align: right;
+}
+
+.searchField {
+    padding: 16px;
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
